@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "../hs-opentelemetry/api/src"
+      component: "lib:hs-opentelemetry-api"
+
+    - path: "app"
+      component: "lib:sample"
+
+    - path: "./app/Main.hs"
+      component: "sample:exe:hello"
+
+    - path: "./Paths_sample.hs"
+      component: "sample:exe:hello"
